@@ -1,6 +1,8 @@
-document.getElementById('myButton').addEventListener('click', function() {
-    alert('Hello from JavaScript!');
-});
+const myButton = document.getElementById('myButton');
+
+const displayValue = document.getElementById('display-value');
+
+generateButton.addEventListener('click', generateRandomValue);
 
 const values = [
     "“Appear weak when you are strong, and strong when you are weak.”",
