@@ -2,7 +2,9 @@ body {
     font-family: sans-serif;
     text-align: center;
     padding-top: 50px;
-    background-image: url("PHB-background.png)
+    background-image: url("PHB-background.png);
+    background-size: cover;
+    background-position: center;
     color: #333;
 }
 h1 {
