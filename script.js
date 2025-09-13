@@ -1,4 +1,4 @@
-const myButton = document.getElementById('myButton');
+const generateButton = document.getElementById('myButton');
 
 const displayValue = document.getElementById('display-value');
 
