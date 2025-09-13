@@ -2,9 +2,13 @@
     font-family: 'MrEaves';
     src: url('Mr Eaves Small Caps.otf') format('opentype');
 }
+@font-face {
+    font-family: 'BookMania';
+    src: url('Bookmania.otf') format('opentype');
+}
 
 body {
-    font-family: sans-serif;
+    font-family: 'Bookmania;
     text-align: center;
     padding-top: 50px;
     background-image: url('PHB-background.png');
