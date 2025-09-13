@@ -1,8 +1,4 @@
-const generateButton = document.getElementById('myButton');
 
-const displayValue = document.getElementById('display-value');
-
-generateButton.addEventListener('click', generateRandomValue);
 
 const values = [
     "“Appear weak when you are strong, and strong when you are weak.”",
@@ -105,6 +101,12 @@ const values = [
     "Your life is a train wreck in slow motion.",
     "You're not going anywhere in life, and that's okay, because you'll get lost on the way."
     ];
+document.addEventListener('DOMContentLoaded', () => {
+const generateButton = document.getElementById('myButton');
+
+const displayValue = document.getElementById('display-value');
+
+generateButton.addEventListener('click', generateRandomValue);
 
 function generateRandomValue() {
             // Get a random index from 0 to the length of the values array
@@ -116,3 +118,4 @@ function generateRandomValue() {
             // Update the text content of the display area
             displayValue.textContent = randomValue;
         }
+});
